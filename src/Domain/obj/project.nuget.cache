@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cCK4cmxMpLI=",
+  "success": true,
+  "projectFilePath": "/home/landolsi/Documents/CleanArch/src/Domain/Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/landolsi/.nuget/packages/sonaranalyzer.csharp/10.9.0.115408/sonaranalyzer.csharp.10.9.0.115408.nupkg.sha512"
+  ],
+  "logs": []
+}

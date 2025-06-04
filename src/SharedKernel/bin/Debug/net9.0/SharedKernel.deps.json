@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SharedKernel/1.0.0": {
+        "dependencies": {
+          "SonarAnalyzer.CSharp": "10.9.0.115408"
+        },
+        "runtime": {
+          "SharedKernel.dll": {}
+        }
+      },
+      "SonarAnalyzer.CSharp/10.9.0.115408": {}
+    }
+  },
+  "libraries": {
+    "SharedKernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SonarAnalyzer.CSharp/10.9.0.115408": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cLvuPNhLWTnHtbTQzZh64xao0ZNsXKc8oZ0Q4agAmMjnqG7Q54mL8jw55rYnVytv+cXRw9ItRoUsggnvRsKJIA==",
+      "path": "sonaranalyzer.csharp/10.9.0.115408",
+      "hashPath": "sonaranalyzer.csharp.10.9.0.115408.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+/home/landolsi/Documents/CleanArch/src/SharedKernel/bin/Debug/net9.0/SharedKernel.deps.json
+/home/landolsi/Documents/CleanArch/src/SharedKernel/bin/Debug/net9.0/SharedKernel.dll
+/home/landolsi/Documents/CleanArch/src/SharedKernel/bin/Debug/net9.0/SharedKernel.pdb
+/home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+/home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/SharedKernel.AssemblyInfoInputs.cache
+/home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/SharedKernel.AssemblyInfo.cs
+/home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/SharedKernel.csproj.CoreCompileInputs.cache
+/home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/SharedKernel.dll
+/home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/refint/SharedKernel.dll
+/home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/SharedKernel.pdb
+/home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/ref/SharedKernel.dll

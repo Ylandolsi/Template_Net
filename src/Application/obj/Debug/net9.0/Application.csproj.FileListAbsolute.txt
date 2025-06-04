@@ -1,0 +1,17 @@
+/home/landolsi/Documents/CleanArch/src/Application/bin/Debug/net9.0/Application.deps.json
+/home/landolsi/Documents/CleanArch/src/Application/bin/Debug/net9.0/Application.dll
+/home/landolsi/Documents/CleanArch/src/Application/bin/Debug/net9.0/Application.pdb
+/home/landolsi/Documents/CleanArch/src/Application/bin/Debug/net9.0/Domain.dll
+/home/landolsi/Documents/CleanArch/src/Application/bin/Debug/net9.0/SharedKernel.dll
+/home/landolsi/Documents/CleanArch/src/Application/bin/Debug/net9.0/Domain.pdb
+/home/landolsi/Documents/CleanArch/src/Application/bin/Debug/net9.0/SharedKernel.pdb
+/home/landolsi/Documents/CleanArch/src/Application/obj/Debug/net9.0/Application.csproj.AssemblyReference.cache
+/home/landolsi/Documents/CleanArch/src/Application/obj/Debug/net9.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/landolsi/Documents/CleanArch/src/Application/obj/Debug/net9.0/Application.AssemblyInfoInputs.cache
+/home/landolsi/Documents/CleanArch/src/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs
+/home/landolsi/Documents/CleanArch/src/Application/obj/Debug/net9.0/Application.csproj.CoreCompileInputs.cache
+/home/landolsi/Documents/CleanArch/src/Application/obj/Debug/net9.0/Applicat.44B5EDA2.Up2Date
+/home/landolsi/Documents/CleanArch/src/Application/obj/Debug/net9.0/Application.dll
+/home/landolsi/Documents/CleanArch/src/Application/obj/Debug/net9.0/refint/Application.dll
+/home/landolsi/Documents/CleanArch/src/Application/obj/Debug/net9.0/Application.pdb
+/home/landolsi/Documents/CleanArch/src/Application/obj/Debug/net9.0/ref/Application.dll
