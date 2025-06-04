@@ -30,6 +30,19 @@ internal sealed class DomainEventsDispatcher(IServiceProvider serviceProvider) :
                 {
                     continue;
                 }
+                // instead of using reflection directly, we use a wrapper to handle the type casting
+                // and method invocation, which is more efficient and cleaner.
+                /**
+                * This is ILLEGAL in C# - can't use 'domainEventType' (a runtime variable) in generics!
+                await (IDomainEventHandler<domainEventType>)handler.Handle(...);
+                
+                * Instead , we passed that domainEventType to HandlerWrapper
+                    which it will create a handlerWrapper Dynamically based on the type of the domain event ( reflecion ).
+                    
+                    this trick works because the HandlerWrapper is a generic class, and we can create a specific instance of it
+                    =>  typeof(HandlerWrapper<>).MakeGenericType(domainEventType)) 
+                    => will create HanderWrapper<domainEventType>
+                */
 
                 var handlerWrapper = HandlerWrapper.Create(handler, domainEventType);
 
@@ -54,6 +67,9 @@ internal sealed class DomainEventsDispatcher(IServiceProvider serviceProvider) :
 
     private sealed class HandlerWrapper<T>(object handler) : HandlerWrapper where T : IDomainEvent
     {
+          // now we can safely cast the handler to IDomainEventHandler<T>
+        // because an instance of HandlerWrapper<T> is created with the appropriate type T
+        // so it can be used at compile time now 
         private readonly IDomainEventHandler<T> _handler = (IDomainEventHandler<T>)handler;
 
         public override async Task Handle(IDomainEvent domainEvent, CancellationToken cancellationToken)
