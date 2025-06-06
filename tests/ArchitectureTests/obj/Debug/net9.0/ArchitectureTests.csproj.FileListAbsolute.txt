@@ -214,3 +214,4 @@
 /home/landolsi/Documents/CleanArch/tests/ArchitectureTests/obj/Debug/net9.0/ArchitectureTests.pdb
 /home/landolsi/Documents/CleanArch/tests/ArchitectureTests/obj/Debug/net9.0/ArchitectureTests.genruntimeconfig.cache
 /home/landolsi/Documents/CleanArch/tests/ArchitectureTests/obj/Debug/net9.0/ref/ArchitectureTests.dll
+/home/landolsi/Documents/CleanArch/tests/ArchitectureTests/obj/Debug/net9.0/ArchitectureTests.sourcelink.json

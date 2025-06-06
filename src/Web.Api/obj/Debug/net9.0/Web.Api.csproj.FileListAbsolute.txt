@@ -170,3 +170,4 @@
 /home/landolsi/Documents/CleanArch/src/Web.Api/obj/Debug/net9.0/Web.Api.pdb
 /home/landolsi/Documents/CleanArch/src/Web.Api/obj/Debug/net9.0/Web.Api.genruntimeconfig.cache
 /home/landolsi/Documents/CleanArch/src/Web.Api/obj/Debug/net9.0/ref/Web.Api.dll
+/home/landolsi/Documents/CleanArch/src/Web.Api/obj/Debug/net9.0/Web.Api.sourcelink.json

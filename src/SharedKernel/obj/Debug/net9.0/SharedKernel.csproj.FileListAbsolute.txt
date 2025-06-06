@@ -9,3 +9,4 @@
 /home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/refint/SharedKernel.dll
 /home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/SharedKernel.pdb
 /home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/ref/SharedKernel.dll
+/home/landolsi/Documents/CleanArch/src/SharedKernel/obj/Debug/net9.0/SharedKernel.sourcelink.json

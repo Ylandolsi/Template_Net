@@ -67,9 +67,12 @@ internal sealed class DomainEventsDispatcher(IServiceProvider serviceProvider) :
 
     private sealed class HandlerWrapper<T>(object handler) : HandlerWrapper where T : IDomainEvent
     {
-          // now we can safely cast the handler to IDomainEventHandler<T>
+        // now we can safely cast the handler to IDomainEventHandler<T>
         // because an instance of HandlerWrapper<T> is created with the appropriate type T
         // so it can be used at compile time now 
+        
+        // T now is recognized at the compile time, not runtime
+        // and we can safely cast the handler to IDomainEventHandler<T>
         private readonly IDomainEventHandler<T> _handler = (IDomainEventHandler<T>)handler;
 
         public override async Task Handle(IDomainEvent domainEvent, CancellationToken cancellationToken)
